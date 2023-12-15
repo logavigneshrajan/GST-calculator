@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GST Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2954464276626766"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="content">
+  <div class="calculator">
+    <h1>GST Calculator</h1>
+    <form id="gstCalculatorForm">
+      <div class="item-form" id="gstCalculatorForm">
+        <input type="text" id="item_name" class="item-name" placeholder="Item Name" required>
+        <input type="number" id="item_amount" class="item-amount" placeholder="Amount" required>
+        <input type="number" id="itemgstrate" class="item-gst-rate" placeholder="GST Rate (%)" min="0" max="28" required>
+        <select class="item-tax-type" id="I_N" required>
+          <option value="inclusive">Inclusive</option>
+          <option value="exclusive">Exclusive</option>
+        </select>
+        <button type="submit">Add Item</button>
+      </div>
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>Item Name</th>
+            <th>Amount</th>
+            <th>GST rate</th> 
+            <th>Inclusive/Exclusive</th> 
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Data from local storage will be dynamically added here -->
+        </tbody>
+      </table>
+      <button type="button" id="resetBtn">Reset</button>
+      <button type="button" id="calculateBtn">Calculate</button>
+    </form>
+    <div class="result" id="result"></div>
+  
+      </div>
+    <div class="text">
+      
+      <p>INDIAN GST CALCULATOR<br>
+<br>
+GST, or Goods and Services Tax, is a comprehensive indirect tax that was introduced in India in 2017, replacing a complex system of multiple taxes such as excise duty, service tax, and value-added tax. GST is designed to simplify the taxation structure and promote ease of doing business. To understand the GST calculator, we first need to grasp the fundamentals of GST itself.<br>
+<br>
+**Understanding GST:**<br>
+<br>
+GST is a destination-based tax, which means it is levied on the consumption of goods and services at the place where they are consumed. It has two major components: CGST (Central Goods and Services Tax) and SGST/UTGST (State/Union Territory Goods and Services Tax). Additionally, there is an Integrated GST (IGST) for the taxation of inter-state supplies. The GST rate structure consists of four main tax slabs: 5%, 12%, 18%, and 28%, with certain goods and services attracting no GST or falling under special rates.<br>
+<br>
+**How the GST Calculator Works:**<br>
+<br>
+A GST calculator is a digital tool that simplifies the process of calculating GST for a particular transaction. It's especially useful for businesses and individuals to quickly determine the GST payable or included in the price of a product or service. Here's a step-by-step explanation of how it works:<br>
+<br>
+1. **Enter Transaction Value:** Start by entering the total value of the goods or services involved in the transaction. This can be the purchase value, sales value, or any other monetary amount related to the transaction.<br>
+<br>
+2. **Select GST Rate:** Next, choose the applicable GST rate for the specific product or service. The rate may be 5%, 12%, 18%, 28%, or a different rate based on the nature of the goods or services.<br>
+<br>
+3. **Calculate GST:** The calculator will then automatically compute the GST amount based on the transaction value and the selected GST rate.<br>
+<br>
+4. **Breakdown of GST:** The GST calculator will typically provide a breakdown of the GST amount into its CGST and SGST/UTGST components for intra-state transactions or as IGST for inter-state transactions. This helps users understand how much tax goes to the central and state governments.<br>
+<br>
+5. **Total Transaction Value:** The calculator also shows the total transaction value, including the original amount and the GST amount.<br>
+<br>
+6. **Net Amount:** You can quickly determine the final amount, including GST, by adding the original value and the GST amount together.<br>
+<br>
+7. **Round-off Rules:** It's essential to be aware of the rounding-off rules that apply to GST. In India, GST is rounded off to the nearest rupee. The GST calculator typically considers these rules when displaying the final figures.<br>
+<br>
+**Advantages of a GST Calculator:**<br>
+<br>
+- **Accuracy:** The calculator eliminates the risk of manual errors in GST calculations, ensuring that businesses and individuals pay the correct amount of tax.<br>
+<br>
+- **Time-Saving:** It saves time by providing instant results, making it convenient for businesses that deal with a high volume of transactions.<br>
+<br>
+- **Transparency:** A GST calculator offers transparency by breaking down the GST amount into its components, helping taxpayers understand how their tax payments are distributed.<br>
+<br>
+- **Compliance:** Using a GST calculator helps businesses comply with GST regulations, as it ensures accurate tax calculations.<br>
+<br>
+- **Cost Reduction:** By automating the calculation process, businesses can reduce the cost of hiring or training personnel for manual tax computations.<br>
+<br>
+In conclusion, the GST calculator is a valuable tool in the world of taxation, making it easier for businesses and individuals to calculate GST accurately and efficiently. It plays a crucial role in promoting transparency, compliance, and the ease of doing business in countries where GST is implemented. This digital tool simplifies complex tax calculations and contributes to the success of the GST regime.<br>
+        Calculate GST with this simple Indian GST calculator. It can be used as well as reverse Goods and Services
+        calculator.<br>
+        It is easy to calculate GST inclusive and exclusive prices.<br>
+
+        <br>
+
+        What is GST rate in India?<br>
+        Current GST rate in India is 18% for goods and services. There are reduced rates 0%, 5% and 12% for some goods
+        and
+        services, and 28% luxury rate for some items.<br>
+        <br>
+        Special GST rates in India<br>
+        There is a special rate of 0.25% on rough precious and semi-precious stones and 3% on gold. In addition a cess
+        of 15%
+        or other rates on top of 28% GST applies on few items like aerated drinks, luxury cars and tobacco products.<br>
+        <br>
+        Indian Goods and Services tax history<br>
+        GST in India was started to charge on 1st of July 2017. It replaced multiple cascading taxes levied by the
+        central and
+        state governments.<br>
+        <br>
+        How to calculate Indian GST manually<br>
+        To calculate Indian GST at 18% rate is very easy: just multiple your GST exclusive amount by 0.18.<br>
+        $10 is GST exclusive value<br>
+        <br>
+        $10 * 0.18 = $1.8 GST amount<br>
+        <br>
+        To get GST inclusive amount multiply GST exclusive value by 1.18<br>
+        $10 is GST exclusive value<br>
+        <br>
+        $10 * 1.18 = $11.8 GST inclusive amount<br>
+        <br>
+        To get GST part of GST inclusive amount you need divide GST inclusive amount by 118 and multiply by 18<br>
+        $236 is GST inclusive value<br>
+        <br>
+        ($236 / 118) * 18 = $36 GST value<br>
+        <br>
+        To get GST exclusive amount while knowing GST inclusive value you need to multiply GST inclusive price by 100
+        ant then
+        divide result by 118
+        $236 is GST inclusive value<br>
+        <br>
+        $236*100=$23600<br>
+        <br>
+        $23600/ 118 = $200
+<br>
+        To calculate GST payable after deduction of Input tax credit use our GST Payment and Input tax credit calculator.<br>
+<br>
+How GST is Calculated?<br>
+GST can be calculated simply by multiplying the Taxable amount by GST rate. If CGST & SGST/UTGST is to be applied then CGST and SGST both amounts are half of the total GST amount.<br>
+GST = Taxable Amount  x  GST Rate<br>
+If you have the amount which is already including the GST then you can calculate the GST excluding amount by below formula<br>
+GST excluding amount = GST including amount/(1+ GST rate/100)<br>
+For example: GST including amount is Rs. 525 and GST rate is 5%.<br>
+GST excluding amount = 525/(1+5/100) = 525/1.05 = 500<br>
+<br>
+What is the percentage of GST in India?<br>
+GST rates are as under<br>
+0% (necessity items like milk, wheat flour)<br>
+0.25% (rough diamonds)<br>
+3%  (gold, silver etc.)<br>
+5%<br>
+12%<br>
+18%<br>
+28%<br>
+Most of the goods fall in the category of 5%, 12% and 18%, while most of the services fall in the category of 18%. GST of 28% is applicable on some items like cement, car, tobacco. There is also a Cess which is applicable only on a handful of goods like car, tobacco, pan masala.<br>
+There are also goods/services on which GST is applicable at NIL rate or which are exempted. Read our article regarding Difference between NIL rate, 0% GST rate and exempted goods/services.<br>
+<br>
+How to make calculation of GST in case of reverse charge?<br>
+In the case of reverse charge also, the calculation will be same. For example, you have purchased goods worth Rs. 5,000 from a person and you are required to pay GST on reverse charge at the rate of 18%. So you have to pay a GST on reverse charge of Rs. 900 (5,000 x 18%). If CGST & SGST is to be levied then CGST & SGST of Rs. 450 each is to be paid.<br>
+      </p>
+    </div>
+     </div>
+  <script src="script.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2954464276626766"
+     crossorigin="anonymous"></script>
+<!-- Mobile Phone -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2954464276626766"
+     data-ad-slot="7943813512"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body>
+ 
+</html>
